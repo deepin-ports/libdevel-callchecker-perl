@@ -4,7 +4,7 @@ Upstream-Contact: http://rt.cpan.org/Dist/Display.html?Queue=Devel-CallChecker
 Source: https://metacpan.org/release/Devel-CallChecker
 
 Files: *
-Copyright: 2011-2013,2015,2017, Andrew Main (Zefram) <zefram@fysh.org>
+Copyright: 2011-2013,2015,2017,2023, Andrew Main (Zefram) <zefram@fysh.org>
 License-Grant:
  This module is free software;
  you can redistribute it and/or modify it

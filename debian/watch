@@ -1,6 +1,6 @@
-version=4
+Version: 5
+
 # check: uscan --report
 # update: gbp import-orig --uscan
-
-https://metacpan.org/release/Devel-CallChecker \
-.*/Devel-CallChecker@ANY_VERSION@@ARCHIVE_EXT@
+Template: Metacpan
+Dist: Devel-CallChecker

@@ -1,8 +1,68 @@
-libdevel-callchecker-perl (0.008-deepin1) unstable; urgency=medium
+libdevel-callchecker-perl (0.010-2) unstable; urgency=medium
 
-  * Rebuild
+  * Team upload.
+  * Re-upload after git-debpush error.
 
- -- Deepin Packages Builder <packages@deepin.org>  Mon, 14 Nov 2022 17:44:35 +0800
+ -- gregor herrmann <gregoa@debian.org>  Tue, 27 Oct 2026 02:16:26 +0100
+
+libdevel-callchecker-perl (0.010-1) unstable; urgency=medium
+
+  * Team upload.
+  * Import upstream version 0.010.
+  * Update debian/upstream/metadata.
+  * Declare compliance with Debian Policy 4.7.4.
+  * Enable all hardening flags.
+  * Convert debian/watch to version 5.
+  * Apply multi-arch hints.
+    + libdevel-callchecker-perl: Drop Multi-Arch: same.
+
+ -- gregor herrmann <gregoa@debian.org>  Tue, 27 Oct 2026 02:09:53 +0100
+
+libdevel-callchecker-perl (0.009-3) unstable; urgency=medium
+
+  * Team upload.
+  * Refresh debian/copyright-check
+  * Drop "Rules-Requires-Root: no": it is the default now
+  * Bump Standards-Version to 4.7.3, drop Priority: tag
+
+ -- Alexandre Detiste <tchet@debian.org>  Sun, 15 Feb 2026 00:37:11 +0100
+
+libdevel-callchecker-perl (0.009-2) unstable; urgency=medium
+
+  * Team upload.
+  * Add build dependency on perl-xs-dev. (Closes: #1102860)
+  * Declare compliance with Debian Policy 4.7.2.
+
+ -- gregor herrmann <gregoa@debian.org>  Tue, 15 Apr 2025 17:07:42 +0200
+
+libdevel-callchecker-perl (0.009-1) unstable; urgency=medium
+
+  * Team upload.
+  * Import upstream version 0.009.
+  * Update years of upstream copyright.
+  * Declare compliance with Debian Policy 4.7.0.
+
+ -- gregor herrmann <gregoa@debian.org>  Sat, 27 Apr 2024 22:26:46 +0200
+
+libdevel-callchecker-perl (0.008-2) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Bump debhelper dependency to >= 9, since that's what is used in
+    debian/compat.
+  * Bump debhelper from old 9 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database.
+  * Update standards version to 4.4.1, no changes needed.
+  * Update standards version to 4.5.0, no changes needed.
+  * Apply multi-arch hints.
+    + libdevel-callchecker-perl: Add Multi-Arch: same.
+  * Bump debhelper from old 12 to 13.
+  * Update standards version to 4.5.1, no changes needed.
+  * Update lintian override info format in d/source/lintian-overrides on line
+    2-7.
+  * Update standards version to 4.6.1, no changes needed.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Wed, 30 Nov 2022 16:51:34 +0000
 
 libdevel-callchecker-perl (0.008-1) unstable; urgency=medium
 

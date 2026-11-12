@@ -1,21 +1,20 @@
 Source: libdevel-callchecker-perl
-Section: perl
-Priority: optional
-Build-Depends:
- debhelper,
- libb-hooks-op-check-perl <!nocheck>,
- libdynaloader-functions-perl <!nocheck>,
- libmodule-build-perl,
- perl,
+Standards-Version: 4.7.4
 Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
 Uploaders:
  Jonas Smedegaard <dr@jones.dk>,
-Standards-Version: 4.3.0
-Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libdevel-callchecker-perl.git
-Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libdevel-callchecker-perl
-Homepage: https://metacpan.org/release/Devel-CallChecker
+Section: perl
 Testsuite: autopkgtest-pkg-perl
-Rules-Requires-Root: no
+Build-Depends:
+ debhelper-compat (= 13),
+ libb-hooks-op-check-perl <!nocheck>,
+ libdynaloader-functions-perl <!nocheck>,
+ libmodule-build-perl,
+ perl-xs-dev,
+ perl:native,
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libdevel-callchecker-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libdevel-callchecker-perl.git
+Homepage: https://metacpan.org/release/Devel-CallChecker
 
 Package: libdevel-callchecker-perl
 Architecture: any
